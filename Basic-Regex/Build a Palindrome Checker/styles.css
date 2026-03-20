@@ -1,0 +1,23 @@
+.header,.inputBox,.infoBox{
+  display:flex;
+  justify-content:center;
+}
+.inputBox,.infoBox{
+  border-style:solid;
+  flex-direction:column;
+  border-radius:5%;
+  align-items:center;
+  width:300px;
+  padding-left:5vh;
+  padding-right:5vh;
+  margin-left:20vh;
+}
+.input,#result,#pText,#infoText{
+  display:flex;
+  justify-content:center;
+}
+.infoBox{
+  margin-top:10px;
+  background:darkgreen;
+  color:white;
+}
